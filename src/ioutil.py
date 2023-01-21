@@ -3,6 +3,7 @@ import pickle
 
 
 
+
 def read_json(in_path):
     with open(in_path, 'r') as infile:
         return json.load(infile)
@@ -17,4 +18,11 @@ def read_pickle():
 def save_pick():
     pass
 
+# pytorch
+def read_torch():
+    pass
 
+def save_torch_dataset():
+    pass
+
+# pytorch model
